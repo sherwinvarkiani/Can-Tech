@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu { /* This is the menu bar */
+  display: inline-block;
+  float: right;
+  width: 500px;
+  margin-top: 50px;
+}
+
+.menu > li {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.links {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.links li {
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav {
+  height: 200px;
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  width: 320px;
+}
+
+#logopic {
+  width: 200px;
+}
+
+.header-title {
+  margin: auto;
+  font-size: 35px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-weight: bold;
+  line-height: 100px;
+  /*text-transform: uppercase; unsure if i like it uppercase or not*/
+}
+
+h2 {
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.opening-info {
+  margin: 40px 40px 40px 120px;
+  width: 50%;
+}
+
+.indent {
+    text-indent: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-info {
+  float: left;
+  width: 50%;
+}
